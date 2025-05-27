@@ -30,6 +30,7 @@ Data preprocessing means turning messy, raw data into clean, organized data that
 - ![Screenshot 2025-05-26 204005](https://github.com/user-attachments/assets/404a6840-826b-4961-8b55-5b941bf772f3)
 
 *****TASK-2*****
+
 What is EDA?
 EDA is the process of analyzing datasets to summarize their main characteristics, often using visual methods.
 
