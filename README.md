@@ -82,6 +82,7 @@ Improves model performance by ensuring clean, well-understood data.
 
 
 *****TASK-3*****
+
 This project implements Simple and Multiple Linear Regression to predict housing prices using the Housing Price Prediction Dataset. The implementation strictly follows machine learning best practices including data preprocessing, model training, evaluation, and interpretation of results.
 
 📊 Dataset Information
