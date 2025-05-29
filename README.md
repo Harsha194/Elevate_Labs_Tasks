@@ -81,6 +81,98 @@ Improves model performance by ensuring clean, well-understood data.
 
 
 
+*****TASK-3*****
+This project implements Simple and Multiple Linear Regression to predict housing prices using the Housing Price Prediction Dataset. The implementation strictly follows machine learning best practices including data preprocessing, model training, evaluation, and interpretation of results.
+
+📊 Dataset Information
+Dataset: Housing.csv
+Features:
+
+price: Target variable (in ₹)
+
+area: Total area in sq. ft
+
+bedrooms, bathrooms: Number of rooms
+
+stories: Number of floors
+
+Binary features: mainroad, guestroom, basement, hotwaterheating, airconditioning, prefarea
+
+furnishingstatus: Categorical (unfurnished, semi-furnished, furnished)
+
+Size: 545 rows × 13 columns
+
+🧰 Requirements
+Python 3.8+
+
+Libraries:
+
+bash
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+🚀 Installation & Usage
+Clone the repository:
+
+bash
+git clone https://github.com/yourusername/housing-price-regression.git
+cd housing-price-regression
+Install dependencies:
+
+bash
+pip install -r requirements.txt
+Run the analysis:
+
+bash
+python housing_regression.py
+🧠 Key Implementation Steps
+Data Preprocessing
+
+Convert binary features (yes/no → 1/0)
+
+Label encode furnishingstatus
+
+Train-Test Split (80:20 ratio)
+
+Simple regression: Uses only area feature
+
+Multiple regression: Uses all features
+
+Model Training
+
+LinearRegression from scikit-learn
+
+Separate models for simple and multiple regression
+
+Evaluation Metrics
+
+MAE, MSE, R² for both models
+
+Visualization & Interpretation
+
+Regression line plot
+
+Feature coefficient analysis
+
+📈 Results & Interpretation
+Model Performance
+Model Type	R² Score	MAE (₹)	Key Insights
+Simple Regression	0.28	1,050,000	Limited predictive power using area alone
+Multiple Regression	0.67	770,000	2.4x better explanation of price variance
+Key Coefficients (Multiple Regression)
+Feature	Coefficient (₹)	Interpretation
+area	+3,200	Per sq. ft increase
+bathrooms	+500,000	Per additional bathroom
+airconditioning	+480,000	AC premium
+prefarea	+370,000	Preferred location premium
+stories	+300,000	Per additional floor
+
+- ![Screenshot 2025-05-29 102700](https://github.com/user-attachments/assets/e581d01d-c2b2-47b3-a524-cdf2cb64a0d3)
+- ![Screenshot 2025-05-29 102713](https://github.com/user-attachments/assets/be22773e-8a49-48d0-9a94-9cf7b6452f74)
+- ![Screenshot 2025-05-29 102732](https://github.com/user-attachments/assets/6dd6d1c8-214e-43ed-af57-1e77e9ce4ea8)
+
 
 
 
