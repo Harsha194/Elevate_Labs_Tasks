@@ -242,6 +242,20 @@ ROC Curve	Precision-Recall Curve	Sigmoid Function
 ROC Curve	Precision-Recall	Sigmoid
 "Proper standardization and threshold tuning significantly improve medical diagnosis models."
 
+#outputs regarding to logistic regression
+
+- ![Screenshot 2025-05-30 185325](https://github.com/user-attachments/assets/04bb3efc-a06b-458c-a65d-7c261cf5380c)
+- ![Screenshot 2025-05-30 185346](https://github.com/user-attachments/assets/358a5cd6-3898-40b2-86cf-aedcee839b94)
+- ![Screenshot 2025-05-30 185404](https://github.com/user-attachments/assets/3c392062-92cc-49f3-b84c-86a820c27e78)
+- ![Screenshot 2025-05-30 185418](https://github.com/user-attachments/assets/7f863d91-5dc4-4a25-9308-18d7a19c5866)
+
+
+
+
+
+
+
+
 
 
 
