@@ -176,5 +176,73 @@ stories	+300,000	Per additional floor
 
 
 
+*****TASK-4*****
+
+
+Breast Cancer Classification with Logistic Regression
+This project demonstrates binary classification using logistic regression on the Breast Cancer Wisconsin Dataset.
+
+Logistic Regression for Binary Classification
+What is Logistic Regression?
+Logistic regression predicts the probability of a binary outcome (0/1) using the sigmoid function. It's ideal for medical diagnosis tasks like cancer detection.
+
+Steps Followed
+Loaded the data using Pandas and explored features
+
+Preprocessed the data by:
+
+Converting diagnosis (M/B) to binary (1/0)
+
+Dropping unnecessary columns (ID, Unnamed: 32)
+
+Split the data into 70% training and 30% testing sets
+
+Standardized features using Scikit-learn's StandardScaler
+
+Trained the model with Logistic Regression
+
+Evaluated performance using:
+
+Confusion matrix
+
+Precision, recall, and F1-score
+
+ROC-AUC score
+
+Tuned the threshold (default 0.5 → tested 0.4)
+
+Visualized results with:
+
+ROC curve
+
+Precision-Recall curve
+
+Sigmoid function
+
+Tools Used
+Python
+
+Pandas
+
+NumPy
+
+Matplotlib
+
+Scikit-learn
+
+Key Insights
+Achieved 97% accuracy on test data
+
+ROC-AUC score of 0.995 shows excellent class separation
+
+Lowering the threshold to 0.4 increased recall (better for cancer detection)
+
+Visualizations
+ROC Curve	Precision-Recall Curve	Sigmoid Function
+ROC Curve	Precision-Recall	Sigmoid
+"Proper standardization and threshold tuning significantly improve medical diagnosis models."
+
+
+
 
 
