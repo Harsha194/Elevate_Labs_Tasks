@@ -249,6 +249,153 @@ ROC Curve	Precision-Recall	Sigmoid
 - ![Screenshot 2025-05-30 185404](https://github.com/user-attachments/assets/3c392062-92cc-49f3-b84c-86a820c27e78)
 - ![Screenshot 2025-05-30 185418](https://github.com/user-attachments/assets/7f863d91-5dc4-4a25-9308-18d7a19c5866)
 
+*****TASK-5*****
+
+
+# Decision Trees and Random Forests - Heart Disease Dataset
+
+## What is This Task About?
+This project demonstrates how to build, visualize, and evaluate tree-based machine learning models — Decision Trees and Random Forests — for classification. The goal is to predict the presence of heart disease using clinical features.
+
+## Steps Followed
+
+1. **Data Loading**  
+   Loaded the Heart Disease dataset from Kaggle using Pandas.
+
+2. **Data Splitting**  
+   Split the dataset into training and testing sets to evaluate model performance.
+
+3. **Training a Decision Tree Classifier**  
+   Trained a decision tree model on the training data.
+
+4. **Visualizing the Decision Tree**  
+   Used Graphviz and pydotplus to visualize the tree structure for interpretability.
+
+5. **Controlling Overfitting**  
+   Limited the tree depth to reduce overfitting and improve generalization.
+
+6. **Training a Random Forest Classifier**  
+   Trained a random forest model and compared its accuracy with the decision tree.
+
+7. **Interpreting Feature Importances**  
+   Extracted and visualized feature importance scores from the random forest to understand key predictors.
+
+8. **Model Evaluation Using Cross-Validation**  
+   Used k-fold cross-validation to get robust estimates of model accuracy.
+
+## Tools Used
+- **Python**  
+- **Pandas** for data handling  
+- **Scikit-learn** for building and evaluating models  
+- **Graphviz & pydotplus** for decision tree visualization  
+- **Matplotlib** for plotting feature importances  
+
+## Why is This Important?
+Tree-based models are powerful and interpretable tools for classification tasks. Visualizing the decision tree helps understand the model’s decision process, while random forests improve accuracy by reducing overfitting. Evaluating with cross-validation ensures reliable performance estimates.
+
+- ![Screenshot 2025-06-05 142352](https://github.com/user-attachments/assets/6be3342f-2bbf-4665-b7ce-dcd80801f317)
+- ![Screenshot 2025-06-05 142421](https://github.com/user-attachments/assets/592236a1-b9b9-40e2-9234-0cf78f3f98e6)
+
+
+*****TASK-6*****
+
+
+# K-Nearest Neighbors (KNN) Classification - Iris Dataset
+
+## What is This Task About?
+This project demonstrates the implementation of the K-Nearest Neighbors (KNN) algorithm for classification problems. Using the Iris dataset, we explore how to normalize features, train KNN models with different values of K, evaluate their performance, and visualize decision boundaries.
+
+## Steps Followed
+
+1. **Dataset Loading**  
+   Loaded the Iris dataset from Scikit-learn’s built-in datasets.
+
+2. **Feature Normalization**  
+   Standardized the features to have mean 0 and standard deviation 1 using `StandardScaler`.
+
+3. **Data Splitting**  
+   Split the dataset into training and testing subsets with a 70-30 ratio.
+
+4. **Training KNN Classifier**  
+   Trained KNN classifiers with various values of K (1, 3, 5, 7, 9) to observe performance differences.
+
+5. **Model Evaluation**  
+   Evaluated models using accuracy scores and visualized the confusion matrix for K=5.
+
+6. **Decision Boundary Visualization**  
+   Visualized decision boundaries on the first two features to understand how KNN classifies regions in feature space.
+
+## Tools Used
+- **Python**  
+- **Pandas** (for data manipulation, optional)  
+- **NumPy** for numerical operations  
+- **Scikit-learn** for dataset loading, preprocessing, model training, and evaluation  
+- **Matplotlib** for visualization  
+
+## Why is This Important?
+KNN is a simple yet powerful classification algorithm that uses proximity to make predictions. Normalizing features ensures fair distance calculations. Experimenting with different K values helps balance bias-variance tradeoff. Visualizing decision boundaries aids in understanding model behavior.
+
+
+- ![Screenshot 2025-06-05 143637](https://github.com/user-attachments/assets/d2033380-b618-43a0-9c8c-fa2adf2ef5cd)
+- ![Screenshot 2025-06-05 143653](https://github.com/user-attachments/assets/c61a3064-b9b9-4cde-8de0-b8f3b8b9b8dc)
+
+
+
+
+*****TASK-7*****
+
+# Support Vector Machines (SVM) - Breast Cancer Dataset
+
+## What is This Task About?
+This project demonstrates the use of Support Vector Machines (SVMs) for both linear and non-linear classification. Using the Breast Cancer dataset, we train SVM models with linear and RBF kernels, visualize decision boundaries, tune hyperparameters, and evaluate model performance.
+
+## Steps Followed
+
+1. **Dataset Loading**  
+   Loaded the Breast Cancer dataset from Scikit-learn’s built-in datasets for binary classification.
+
+2. **Feature Selection and Scaling**  
+   Selected the first two features for visualization and standardized them to zero mean and unit variance.
+
+3. **Training SVM Models**  
+   Trained SVM classifiers with linear and RBF kernels on the training data.
+
+4. **Decision Boundary Visualization**  
+   Visualized the decision boundaries of both models on 2D feature space to understand their classification behavior.
+
+5. **Hyperparameter Tuning**  
+   Used GridSearchCV to tune the regularization parameter `C` and kernel coefficient `gamma` for the RBF kernel.
+
+6. **Model Evaluation**  
+   Evaluated the best model on the test set using accuracy and confusion matrix.
+
+7. **Cross-Validation**  
+   Performed 5-fold cross-validation on the full dataset with the best model to estimate generalization performance.
+
+## Tools Used
+- **Python**  
+- **NumPy** for numerical operations  
+- **Scikit-learn** for dataset loading, preprocessing, model training, hyperparameter tuning, and evaluation  
+- **Matplotlib** for visualization  
+
+## Why is This Important?
+SVMs are powerful classifiers that can handle both linear and complex non-linear decision boundaries through kernel functions. Visualizing decision boundaries helps interpret model behavior, while hyperparameter tuning optimizes performance. Cross-validation ensures robust evaluation.
+
+
+
+- ![Screenshot 2025-06-05 144727](https://github.com/user-attachments/assets/48b2d5b0-ae7f-4b11-9c3c-af1381146c85)
+- ![Screenshot 2025-06-05 144744](https://github.com/user-attachments/assets/c9f492de-55e8-490c-aaf4-3dc8d83c3811)
+- ![Screenshot 2025-06-05 144757](https://github.com/user-attachments/assets/43651316-f5f4-4a75-81f7-a88b6609596a)
+
+
+
+
+
+
+
+
+
+
 
 
 
