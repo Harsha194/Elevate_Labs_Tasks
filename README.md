@@ -388,6 +388,68 @@ SVMs are powerful classifiers that can handle both linear and complex non-linear
 - ![Screenshot 2025-06-05 144757](https://github.com/user-attachments/assets/43651316-f5f4-4a75-81f7-a88b6609596a)
 
 
+*****TASK-8*****
+
+
+# K-Means Clustering - Customer Segmentation Dataset
+
+## What is This Task About?
+This project demonstrates unsupervised learning using K-Means clustering to identify distinct customer segments based on purchasing behavior. Using the Mall Customers dataset, we perform data exploration, determine optimal clusters, visualize customer segments, and evaluate clustering quality.
+
+## Steps Followed
+
+### 1. Dataset Loading
+- Loaded the Mall Customers dataset containing customer demographics and spending behavior
+- Features include: CustomerID, Gender, Age, Annual Income (k$), Spending Score (1-100)
+
+### 2. Data Exploration and Preprocessing
+- Analyzed feature distributions through histograms
+- Selected relevant features (Annual Income and Spending Score)
+- Standardized features to zero mean and unit variance using StandardScaler
+
+### 3. Determining Optimal Clusters
+- Applied the Elbow Method to find the optimal number of clusters
+- Calculated Silhouette Scores for cluster quality assessment
+- Visualized WCSS (Within-Cluster Sum of Squares) vs. number of clusters
+
+### 4. K-Means Clustering
+- Performed clustering with the optimal number of clusters
+- Visualized clusters with centroids in 2D feature space
+- Analyzed cluster characteristics (average age, income, spending score)
+
+### 5. Cluster Evaluation
+- Calculated Silhouette Score to evaluate cluster separation
+- Interpreted customer segments based on cluster characteristics
+
+### 6. Advanced Techniques (Optional)
+- Principal Component Analysis (PCA) for dimensionality reduction
+- Experimentation with different cluster counts
+
+## Tools Used
+- **Python** as the programming language
+- **Pandas** for data manipulation and analysis
+- **Scikit-learn** for K-Means implementation, scaling, and metrics
+- **Matplotlib/Seaborn** for data visualization
+- **NumPy** for numerical operations
+
+## Why is This Important?
+- Customer segmentation helps businesses understand different customer groups
+- K-Means is a fundamental unsupervised learning algorithm for pattern discovery
+- The Elbow Method provides a systematic way to determine cluster count
+- Silhouette Score objectively measures clustering quality
+- Visualizations make complex clustering results interpretable for stakeholders
+
+## Key Findings
+- Optimal number of clusters identified: 5
+- Distinct customer segments revealed (e.g., high-income/low-spending, medium-income/medium-spending)
+- Silhouette Score of [your_score] indicates [good/moderate/poor] separation
+
+
+
+- ![Screenshot 2025-06-14 123323](https://github.com/user-attachments/assets/beb0f946-68e8-4436-98e2-ec808c411c06)
+- ![Screenshot 2025-06-14 123301](https://github.com/user-attachments/assets/a3d2ca0b-4c40-4a04-bdb5-b3b77586dcaf)
+- ![Screenshot 2025-06-14 123311](https://github.com/user-attachments/assets/096e5bdd-9373-4718-9ff6-50431a87624d)
+
 
 
 
